@@ -1,0 +1,34 @@
+:root{
+    /* Transition */
+    --all-transition: all .3s cubic-bezier(0.645, 0.045, 0.335, 1);
+
+    /* Colors */
+    --color-primary: #3FAAF5;
+
+    --color-success: #13ce66;
+    --color-info: #909399;
+    --color-warning: #e6a23c;
+    --color-danger: #f56c6c;
+    --color-white: #fff;
+    --color-transparent: transparent;
+
+    --color-base-black: color(var(--color-primary) h(+6) s(33%) l(18%));
+
+    --color-extra-light-silver: color(var(--color-base-black) s(26%) l(80%));
+
+    /* Button */
+    --button-default-fill: var(--color-white);
+    --button-default-color: var(--color-base-black);
+    --button-primary-color: var(--color-white);
+
+    /* Border */
+    --border-width-base: 1px;
+    --border-style-base: solid;
+    --border-color-base: var(--color-extra-light-silver);
+    --border-color-primary: var(--color-primary);
+    --border-base:var(--border-width-base) var(--border-style-base) var(--border-color-base);
+    --border-primary:var(--border-width-base) var(--border-style-base) var(--border-color-primary);
+    --border-radius-base: 4px;
+    --border-radius-small: 2px;
+    --border-radius-circle: 100%;
+}

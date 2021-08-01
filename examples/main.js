@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import demoBlock from './components/demo-block.vue'
+import GRUI from '../packages/index'
+import '../packages/theme-default/lib/index.css'
 
 Vue.config.productionTip = false
+Vue.component('demo-block', demoBlock)
+Vue.use(GRUI)
 
 /* eslint-disable no-new */
 new Vue({

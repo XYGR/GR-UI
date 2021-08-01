@@ -1,23 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <mainHeader />  
+    <router-view class="page-view" />
   </div>
 </template>
 
 <script>
+import mainHeader from './components/header.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    mainHeader
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="less" type="text/less">
+  @import "./assets/less/index";
+  
+  .page-view{
+    min-height: calc(100vh - 60px);
+  }
 </style>
