@@ -8,7 +8,7 @@
     </div>
     <div class="separate-panel">
       <div class="separate-panel-about">
-        <router-link to="/doc" class="separate-panel-about-doc">开始使用</router-link
+        <router-link to="/doc/giud" class="separate-panel-about-doc">开始使用</router-link
         >
         <a href="https://github.com/XYGR/GR-UI" target="_blank" class="separate-panel-about-github">GitHub</a
         >
